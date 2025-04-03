@@ -1,19 +1,29 @@
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 20px;
 }
 
-nav ul {
+nav {
     background-color: rgb(158, 158, 226);
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    list-style: none;
-    padding: 1em;
-    margin: 1em;
+    padding: 01px 0px;
+    margin-bottom: 5em;
 
+
+    ul {
+        text-align: center;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
+
+    li {
+        justify-content: space-around;
+        
+    }
 }
+
 
 
 .art {
@@ -54,11 +64,13 @@ nav ul {
 
     h2 {
         color: rgb(9, 85, 60);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     p {
         text-align: justify;
         color: rgb(25, 212, 150);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
 }
@@ -69,9 +81,19 @@ nav ul {
     padding: 0em 2em 1em 2em;
     margin: auto;
     margin-bottom: 2em;
-    width: 40%;
+    width: 35%;
     background-color: rgb(231, 217, 248);
     /* text-align: center; */
+
+    .the_images {
+        
+        text-align: center;
+
+        img {
+            width: 100%;
+            text-align: justify;
+        }
+    }
 
     button {
         background-color: rgb(75, 67, 87);
@@ -90,11 +112,13 @@ nav ul {
 
     h2 {
         color: rgb(121, 50, 50);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     p {
         text-align: justify;
         color: rgb(211, 94, 94);
+        font-family: 'Times New Roman', Times, serif;
     }
 
 }
@@ -106,9 +130,19 @@ nav ul {
     padding: 0em 2em 1em 2em;
     margin: auto;
     margin-bottom: 2em;
-    width: 40%;
+    width: 35%;
     background-color: rgb(247, 221, 221);
     /* text-align: center; */
+
+    .the_images {
+        
+        text-align: center;
+
+        img {
+            width: 100%;
+            text-align: justify;
+        }
+    }
 
     button {
         background-color: rgb(100, 63, 63);
@@ -127,10 +161,12 @@ nav ul {
 
     h2 {
         color: rgb(121, 69, 2);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     p {
         text-align: justify;
         color: rgb(218, 126, 6);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 }
